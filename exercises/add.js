@@ -17,6 +17,4 @@ function bake(ingredient1, ingredient2, ingredient3) {
     }
 }
 
-bake()
-
-//add a class to the form style
+bake("apples", "flour", "sugar")
