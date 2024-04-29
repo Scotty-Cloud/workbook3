@@ -11,3 +11,19 @@ function favoriteThings() {
 }
 
 favoriteThings();
+
+function whyImHere() {
+  const existence = "suffer";
+
+  console.log(`Im here to ${existence}`);
+}
+
+whyImHere();
+
+function favoritePlace() {
+  const favPlace = "bedroom";
+
+  console.log(`My favorite place is my ${favPlace}`);
+}
+
+favoritePlace();
