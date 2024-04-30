@@ -26,7 +26,7 @@ let otherZip = '00009';
 displayMailingLabel(someName, someAddress, someCity, someState, someZip);
 displayMailingLabel(otherName, otherAddress, otherCity, otherState, otherZip);
 
-console.log("\n");
+console.log();
 
 //exercise 2
 function addNumbers (num1, num2){
@@ -40,7 +40,7 @@ let y = 72;
 addNumbers(x, y)
 addNumbers(99, 100)
 
-console.log("\n");
+console.log();
 
 // exercise 3
 function displayReceipt(totalDue, amountPaid) {
@@ -55,5 +55,7 @@ function displayReceipt(totalDue, amountPaid) {
 let bill = 550;
 let pay = 550;
 displayReceipt(100, 90);
+console.log();
 displayReceipt(100, 110)
+console.log();
 displayReceipt(bill, pay);
