@@ -28,5 +28,9 @@ function displayNameAndAge(name, age) {
   // elsewhere
   let someName = "scott";
   let someAge = 999;
-displayNameAndAge(someName, someAge); someName = "bob";
-someAge = 9999; displayNameAndAge(someName, someAge);
+  
+displayNameAndAge(someName, someAge); 
+someName = "bob";
+someAge = 9999; 
+
+displayNameAndAge(someName, someAge);
