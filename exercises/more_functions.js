@@ -1,11 +1,11 @@
-//exercise 1
-// function displayMailingLabel(name, address, city, state, zip) {
-//   console.log(`
-//   ${name}
-//   ${address}
-//   ${city}, ${state} ${zip}`);
-// }
-// displayMailingLabel("Scotty", "999 Hamster St", "Boogie Town", "NYC", "99999");
+// exercise 1
+function displayMailingLabel(name, address, city, state, zip) {
+  console.log(`
+  ${name}
+  ${address}
+  ${city}, ${state} ${zip}`);
+}
+displayMailingLabel("Scotty", "999 Hamster St", "Boogie Town", "NYC", "99999");
 
 //exercise 
 function displayMailingLabel(name, address, city, state, zip) {

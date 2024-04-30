@@ -12,25 +12,3 @@ add(x, y);
 add(1, 1);
 add(2, 2);
 add(3, 3);
-
-// function bake(ingredient1, ingredient2, ingredient3) {
-//     if(ingredient1 =="apples"){
-//         console.log("apple pie");
-//     }
-// }
-
-// bake("apples", "cinnamon", "sugar")
-
-
-function displayNameAndAge(name, age) {
-  let message = name + " is " + age; console.log(message);
-  }
-  // elsewhere
-  let someName = "scott";
-  let someAge = 999;
-  
-displayNameAndAge(someName, someAge); 
-someName = "bob";
-someAge = 9999; 
-
-displayNameAndAge(someName, someAge);
