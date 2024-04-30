@@ -1,3 +1,3 @@
-# Workbook 2
+# Workbook 3
 
 code examples & exercises for workbook 3
