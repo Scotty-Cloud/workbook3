@@ -1,10 +1,10 @@
-let birthday = new Date(1900/01/22);
+let birthday = new Date(1900/1/22);
 console.log(`${birthday.toLocaleString()}`)
 
-let momBirthday = new Date(02, 22, 1900);
+let momBirthday = new Date(0, 22, 1900);
 console.log(`${momBirthday.toLocaleString()}`);
 
-let dadBirthday = new Date(1900, 03, 24);
+let dadBirthday = new Date(1900, 3, 24);
 console.log(`${momBirthday.toLocaleString()}`);
 
 // When date and time are specified, results are obvious
