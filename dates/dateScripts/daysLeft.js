@@ -1,15 +1,17 @@
-function init(){
-    const dateBtn = document.getElementById("dateBtn")
-    dateBtn =.onclick
+window.onload = function init() {
+  const submitBtn = document.getElementById("submitBtn");
+  submitBtn.onclick = daysTo;
 }
 
+function daysTo() {
+  const dateInput = new Date(document.getElementById("dateInput").value)
+  const dateToday = new Date();
+  const textInput = document.getElementById("textInput")
 
-let startDate = new Date("July 11, 2022");
-let endDate = new Date("November 11, 2022");
+  let msec_per_day = 1000 * 60 * 60 * 24;
+  let dayDiff = (dateInput.getTime() - dateToday.getTime()) / msec_per_day;
 
-let msec_per_day = 1000 * 60 * 60 * 24;
-let elapsedMilliseconds = endDate.getTime() - startDate.getTime();
-let dayDiff = elapsedMilliseconds / msec_per_day;
-let numDays = Math.round(dayDiff);
+  let numDays = Math.round(dayDiff) +1 ;
 
-console.log(`the number o days between dates is ${numDays}`);
+  textInput.innerText = "Your trip is in " + numDays + " days."
+}

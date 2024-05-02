@@ -6,4 +6,4 @@ let elapsedMilliseconds = endDate.getTime() - startDate.getTime();
 let dayDiff = elapsedMilliseconds / msec_per_day;
 let numDays = Math.round(dayDiff);
 
-console.log(`the number o days between dates is ${numDays}`);
+console.log(`the number of days between dates is ${numDays}`);
