@@ -1,7 +1,7 @@
 # Workbook 3
 code examples & exercises for workbook 3
 
-- Functions cont.
+- JavaScript Functions cont.
 - Parameters
   - Passing params, built in functions
 - Return Values
